@@ -1,0 +1,14 @@
+plugins { id 'com.android.application' }
+
+android {
+    namespace 'ir.networkyar.app'
+    compileSdk 35
+
+    defaultConfig {
+        applicationId 'ir.networkyar.app'
+        minSdk 23
+        targetSdk 32
+        versionCode 1
+        versionName '1.0.0'
+    }
+}
